@@ -1,0 +1,24 @@
+# Generated editor state and logs
+symbolCache/
+custom_primitives/
+debug.log
+editor.xml
+__pycache__/
+*.pyc
+*.tmp
+*.blend1
+*.blend2
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Work files kept local, not in git (PropaineX rule 2026-11-11)
+*.blend
+*.blend[0-9]
+*.obj
+*.mtl
+*.bak
+*backup*/
+*Backup*/

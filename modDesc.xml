@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="115">
+    <author>PropaineX</author>
+    <version>1.2.6.0</version>
+    <title>
+        <en>Assisted Tree Felling</en>
+    </title>
+    <description>
+        <en><![CDATA[Crane auto-aim for the Rottne H21D (from the Rottne Pack, needed).
+
+Drive up to a tree: a ring shows on the tree you can fell (yellow = in reach, green = head on the tree, red = too thick or not allowed).
+Hold Q: the crane swings to the tree, reaches in, lowers the head until it touches the ground, cuts the tree and lifts it (saw about 2.25 m above the ground), ready to back out. Let go of Q to stop at any time.
+O (the game's own auto-aim key) aims only, so you can cut yourself.
+Left Shift + Q: centre the crane. Folds the telescope, arms and head back to their start position, then swings crane and cab back to straight ahead.
+Uses the game's own auto-aim, with the base-game John Deere 1270G settings.]]></en>
+    </description>
+    <iconFilename>icon_AssistedTreeFelling.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/AssistedTreeFelling.lua" />
+    </extraSourceFiles>
+
+    <actions>
+        <action name="ATF_AUTO_FELL" />
+        <action name="ATF_RETURN" />
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="ATF_AUTO_FELL">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_q" />
+        </actionBinding>
+        <actionBinding action="ATF_RETURN">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_q" />
+        </actionBinding>
+    </inputBinding>
+
+    <l10n>
+        <text name="input_ATF_AUTO_FELL"><en>Auto-aim crane at tree (hold)</en></text>
+        <text name="input_ATF_RETURN"><en>Centre crane</en></text>
+    </l10n>
+</modDesc>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- Auto-aim settings for the Rottne H21D (h21D_706.xml in FS25_Rottne_Pack).
+     Copied unchanged from the base-game John Deere 1270G (data/vehicles/johnDeere/harvester1270G/harvester1270G.xml).
+     The 706 head uses the same joint names as the John Deere. -->
+<vehicle>
+    <automaticArmControlHarvester requiresEasyArmControl="false" foldMinLimit="0" foldMaxLimit="0">
+        <treeDetectionNode node="treeAutoDetectionNode" minRadius="4.5" maxRadius="8" maxAngle="75" cutHeight="0"/>
+        <xAlignment movingToolNode="craneYRotDummy" speedScale="1" referenceNode="cutterHolderColJoint"/>
+        <yAlignment movingToolNode="heightControlArmDummy" speedScale="-0.5" referenceNode="treeAutoYReferenceNode"/>
+        <zAlignment movingToolNode="mainArmDummy" speedScale="0.25" referenceNode="treeAutoZReferenceNode" moveBackDistance="2.0"/>
+        <alignmentNode movingToolNode="cutterRotJoint" rotation="0" speedScale="10" isPrerequisite="true"/>
+        <alignmentNode movingToolNode="translateArmDummy" translation="0" speedScale="10" isPrerequisite="true"/>
+        <treeMarker width="0.3" offset="0.04" color="0 2 0" targetColor="2 2 0"/>
+    </automaticArmControlHarvester>
+</vehicle>
