@@ -6,7 +6,11 @@
         <en>Assisted Tree Felling</en>
     </title>
     <description>
-        <en><![CDATA[Crane auto-aim for the Rottne H21D (from the Rottne Pack, needed).
+        <en><![CDATA[Description: Crane auto-aim for the Rottne H21D harvester: hold one key and the crane swings to the tree, cuts it and lifts it, ready to back out.
+Hotkeys: Q (hold): aim the crane at the tree and fell it. Left Shift+Q: centre the crane. O (the game's own auto-aim key) aims only. Controller: none by default for Q and Left Shift+Q, set them under Settings > Controls.
+GitHub: https://github.com/DTM-Mods/FS25_AssistedTreeFelling
+
+Requires the mod Rottne H21D Steep Slope Pack (FS25_Rottne_Pack); without it this mod does nothing.
 
 Drive up to a tree: a ring shows on the tree you can fell (yellow = in reach, green = head on the tree, red = too thick or not allowed).
 Hold Q: the crane swings to the tree, reaches in, lowers the head until it touches the ground, cuts the tree and lifts it (saw about 2.25 m above the ground), ready to back out. Let go of Q to stop at any time.
@@ -16,7 +20,11 @@ Uses the game's own auto-aim, with the base-game John Deere 1270G settings.
 
 Changelog 1.2.6.2:
 - Updated for the current game version (modDesc version 116).]]></en>
-        <de><![CDATA[Kran-Zielautomatik für den Rottne H21D (aus dem Rottne Pack, wird benötigt).
+        <de><![CDATA[Beschreibung: Kran-Zielautomatik für den Harvester Rottne H21D: eine Taste halten, und der Kran schwenkt zum Baum, sägt ihn und hebt ihn an, bereit zum Zurücksetzen.
+Tastenkombinationen: Q (halten): Kran auf den Baum ausrichten und ihn fällen. Linke Umschalttaste+Q: Kran zentrieren. O (die eigene Zielautomatik-Taste des Spiels) zielt nur. Controller: für Q und Linke Umschalttaste+Q standardmäßig keine Belegung, unter Einstellungen > Steuerung festlegen.
+GitHub: https://github.com/DTM-Mods/FS25_AssistedTreeFelling
+
+Benötigt die Mod Rottne H21D Steilhang Pack (FS25_Rottne_Pack); ohne sie tut diese Mod nichts.
 
 Fahre an einen Baum heran: ein Ring erscheint an dem Baum, den du fällen kannst (gelb = in Reichweite, grün = Kopf am Baum, rot = zu dick oder nicht erlaubt).
 Q gedrückt halten: der Kran schwenkt zum Baum, greift hin, senkt den Kopf, bis er den Boden berührt, sägt den Baum und hebt ihn an (Schnitt etwa 2,25 m über dem Boden), bereit zum Zurücksetzen. Lass Q los, um jederzeit anzuhalten.
@@ -29,6 +37,10 @@ Changelog 1.2.6.2:
     </description>
     <iconFilename>icon_AssistedTreeFelling.dds</iconFilename>
     <multiplayer supported="true" />
+
+    <dependencies>
+        <dependency>FS25_Rottne_Pack</dependency>
+    </dependencies>
 
     <extraSourceFiles>
         <sourceFile filename="scripts/AssistedTreeFelling.lua" />
