@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="116">
     <author>PropaineX</author>
-    <version>1.2.6.2</version>
+    <version>1.2.6.3</version>
     <title>
         <en>Assisted Tree Felling</en>
     </title>
@@ -18,8 +18,9 @@ O (the game's own auto-aim key) aims only, so you can cut yourself.
 Left Shift + Q: centre the crane. Folds the telescope, arms and head back to their start position, then swings crane and cab back to straight ahead.
 Uses the game's own auto-aim, with the base-game John Deere 1270G settings.
 
-Changelog 1.2.6.2:
-- Updated for the current game version (modDesc version 116).]]></en>
+Changelog 1.2.6.3:
+- Description in GIANTS' ModHub layout (category, price, upkeep or hotkeys at the top).
+- Declares the Rottne Pack mod it needs, so the game tells you when it is missing.]]></en>
         <de><![CDATA[Beschreibung: Kran-Zielautomatik für den Harvester Rottne H21D: eine Taste halten, und der Kran schwenkt zum Baum, sägt ihn und hebt ihn an, bereit zum Zurücksetzen.
 Tastenkombinationen: Q (halten): Kran auf den Baum ausrichten und ihn fällen. Linke Umschalttaste+Q: Kran zentrieren. O (die eigene Zielautomatik-Taste des Spiels) zielt nur. Controller: für Q und Linke Umschalttaste+Q standardmäßig keine Belegung, unter Einstellungen > Steuerung festlegen.
 GitHub: https://github.com/DTM-Mods/FS25_AssistedTreeFelling
@@ -32,8 +33,9 @@ O (die eigene Zielautomatik-Taste des Spiels) zielt nur, sodass du selbst sägen
 Linke Umschalttaste + Q: Kran zentrieren. Fährt Teleskop, Arme und Kopf in ihre Ausgangsstellung zurück und schwenkt dann Kran und Kabine wieder geradeaus.
 Nutzt die eigene Zielautomatik des Spiels mit den Einstellungen des John Deere 1270G aus dem Grundspiel.
 
-Changelog 1.2.6.2:
-- An die aktuelle Spielversion angepasst (modDesc-Version 116).]]></de>
+Changelog 1.2.6.3:
+- Beschreibung im ModHub-Aufbau von GIANTS (Kategorie, Preis, Unterhalt bzw. Tasten oben).
+- Gibt das benötigte Rottne-Pack-Mod als Abhängigkeit an, damit das Spiel meldet, wenn es fehlt.]]></de>
     </description>
     <iconFilename>icon_AssistedTreeFelling.dds</iconFilename>
     <multiplayer supported="true" />

@@ -1,5 +1,10 @@
 # FS25 Assisted Tree Felling - patch notes
 
+## 1.2.6.3
+
+- Description in GIANTS' ModHub layout (category, price, upkeep or hotkeys at the top).
+- Declares the Rottne Pack mod it needs, so the game tells you when it is missing.
+
 ## 1.2.6.2
 
 - Updated for the current game version: modDesc descVersion 116 (the game build of 2026-10-27; GIANTS TestRunner 0.9.24 accepts only 116).
