@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="115">
+<modDesc descVersion="116">
     <author>PropaineX</author>
-    <version>1.2.6.1</version>
+    <version>1.2.6.2</version>
     <title>
         <en>Assisted Tree Felling</en>
     </title>
@@ -14,9 +14,8 @@ O (the game's own auto-aim key) aims only, so you can cut yourself.
 Left Shift + Q: centre the crane. Folds the telescope, arms and head back to their start position, then swings crane and cab back to straight ahead.
 Uses the game's own auto-aim, with the base-game John Deere 1270G settings.
 
-Changelog 1.2.6.1:
-- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
-- Errors are no longer hidden: they show in the log.]]></en>
+Changelog 1.2.6.2:
+- Updated for the current game version (modDesc version 116).]]></en>
         <de><![CDATA[Kran-Zielautomatik für den Rottne H21D (aus dem Rottne Pack, wird benötigt).
 
 Fahre an einen Baum heran: ein Ring erscheint an dem Baum, den du fällen kannst (gelb = in Reichweite, grün = Kopf am Baum, rot = zu dick oder nicht erlaubt).
@@ -25,9 +24,8 @@ O (die eigene Zielautomatik-Taste des Spiels) zielt nur, sodass du selbst sägen
 Linke Umschalttaste + Q: Kran zentrieren. Fährt Teleskop, Arme und Kopf in ihre Ausgangsstellung zurück und schwenkt dann Kran und Kabine wieder geradeaus.
 Nutzt die eigene Zielautomatik des Spiels mit den Einstellungen des John Deere 1270G aus dem Grundspiel.
 
-Changelog 1.2.6.1:
-- Erfüllt die GIANTS-ModHub-Prüfungen (TestRunner): Texturen, Icon und modDesc auf den neuesten Stand gebracht.
-- Fehler werden nicht mehr versteckt und erscheinen im Log.]]></de>
+Changelog 1.2.6.2:
+- An die aktuelle Spielversion angepasst (modDesc-Version 116).]]></de>
     </description>
     <iconFilename>icon_AssistedTreeFelling.dds</iconFilename>
     <multiplayer supported="true" />
