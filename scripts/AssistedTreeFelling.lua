@@ -59,20 +59,20 @@ AutomaticArmControlHarvester.onLoad = function(self, savegame)
         Logging.warning("[AssistedTreeFelling] Could not load '%s'", configFilename)
         return originalOnLoad(self, savegame)
     end
+    if not configXml:hasProperty("vehicle.automaticArmControlHarvester") then
+        Logging.warning("[AssistedTreeFelling] '%s' has no automaticArmControlHarvester block, auto-aim stays off", configFilename)
+        configXml:delete()
+        return originalOnLoad(self, savegame)
+    end
 
     local vehicleXml = self.xmlFile
     self.xmlFile = configXml
-    local ok, err = pcall(originalOnLoad, self, savegame)
+    originalOnLoad(self, savegame)
     self.xmlFile = vehicleXml
     configXml:delete()
 
-    if not ok then
-        Logging.error("[AssistedTreeFelling] Auto-aim setup failed for '%s': %s", tostring(self.configFileName), tostring(err))
-        return
-    end
-
     local spec = self.spec_automaticArmControlHarvester
-    if spec.treeDetectionNode ~= nil then
+    if spec ~= nil and spec.treeDetectionNode ~= nil then
         self.assistedTreeFellingActive = true
         local baseName = string.match(string.lower(self.configFileName), "([^/\\]+)$")
         self.atfCentre = AssistedTreeFelling.CENTRE[baseName]

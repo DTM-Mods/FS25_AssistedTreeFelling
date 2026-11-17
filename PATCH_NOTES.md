@@ -1,5 +1,9 @@
 # FS25 Assisted Tree Felling - patch notes
 
+## 1.2.6.1
+- Meets the GIANTS ModHub checks (TestRunner): textures, icon and modDesc brought up to date.
+- Errors are no longer hidden: they show in the log.
+
 ## 1.2.6.0 - 2026-11-07 - TEST BUILD
 - Centre the crane (zero position) key changed from Left Ctrl + Left Alt + Q to Left Shift + Q.
 - Untested.
